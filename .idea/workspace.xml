@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ec46eed-0928-4625-b4c9-3a856d40e6c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalExam_Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visual_BinaryTrees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesPython/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Double_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Node.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JmMjKmycIC9URJBxIBNwIRXLYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samson/OneDrive - samxhavier/Desktop/Software &amp; Data Engineering/Dva Godina Course Materials/Practice - AD/FinalExam_Practice/src/E_BinaryTrees&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samson\OneDrive - samxhavier\Desktop\Software &amp; Data Engineering\Dva Godina Course Materials\Practice - AD\FinalExam_Practice\src\E_BinaryTrees" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="E_BinaryTrees" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.E_BinaryTrees.Main">
+    <configuration name="E_BinaryTrees.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E_BinaryTrees.Main" />
+      <module name="FinalExam_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E_BinaryTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreesJava.Main" />
+      <module name="FinalExam_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTreesJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.E_BinaryTrees.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ec46eed-0928-4625-b4c9-3a856d40e6c5" name="Changes" comment="" />
+      <created>1672678941432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672678941432</updated>
+      <workItem from="1672678941981" duration="1063000" />
+      <workItem from="1672680173230" duration="6484000" />
+      <workItem from="1672735138769" duration="641000" />
+      <workItem from="1672780743126" duration="2117000" />
+      <workItem from="1672873195170" duration="643000" />
+      <workItem from="1673034874333" duration="5203000" />
+      <workItem from="1673107260861" duration="795000" />
+      <workItem from="1673108516965" duration="746000" />
+      <workItem from="1673109482171" duration="322000" />
+      <workItem from="1673109910623" duration="4456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
