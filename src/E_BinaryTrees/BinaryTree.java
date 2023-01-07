@@ -2,7 +2,7 @@ package E_BinaryTrees;
 
 import java.util.Objects;
 
-public class BinaryTree<E> extends Node<E>{
+public class BinaryTree<E> extends Node<E> {
     public Node<E> root;
 
     public BinaryTree() {
@@ -95,13 +95,11 @@ public class BinaryTree<E> extends Node<E>{
         }
     }
 
-    public void display(Node<E> root){
-        if (root != null) {
-            display(root.left);
-            System.out.print("-->" + root.data);
-            display(root.right);
-        }
+    public void display(){
+        TreePrinter tree = new TreePrinter();
+        tree.print(root);
     }
+
 
     public boolean delete(E id) {
         Node<E> parent = root;

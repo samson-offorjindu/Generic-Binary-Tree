@@ -10,18 +10,21 @@ public class Main {
         students.add("Elijah");
         students.add("Jeremiah");
 
-        ArrayList<Double> grades = new ArrayList<>();
-        grades.add(384.3);
-        grades.add(300.56);
-        grades.add(45.3);
+        ArrayList<String> professors = new ArrayList<>();
+        students.add("Jovan");
+        students.add("Dragan");
+        students.add("Calic");
 
-        ArrayList<Integer> index = new ArrayList<>();
-        index.add(3);
-        index.add(9);
-        index.add(13);
+        ArrayList<String> ex_professors = new ArrayList<>();
+        students.add("Djon");
+        students.add("Dragana");
+        students.add("Kozik");
+
 
         binary_matrix.insert_node(students);
-        binary_matrix.display(binary_matrix.root);
+        binary_matrix.insert_node(professors);
+        binary_matrix.insert_node(ex_professors);
 
+        binary_matrix.display();
     }
 }

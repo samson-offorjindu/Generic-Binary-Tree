@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ec46eed-0928-4625-b4c9-3a856d40e6c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExam_Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Visual_BinaryTrees.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesJava/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesPython/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Double_LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_BinaryTrees/TreePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E_BinaryTrees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E_BinaryTrees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E_BinaryTrees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E_BinaryTrees/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E_BinaryTrees/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +110,7 @@
       <workItem from="1673107260861" duration="795000" />
       <workItem from="1673108516965" duration="746000" />
       <workItem from="1673109482171" duration="322000" />
-      <workItem from="1673109910623" duration="4456000" />
+      <workItem from="1673109910623" duration="8510000" />
     </task>
     <servers />
   </component>
