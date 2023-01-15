@@ -153,6 +153,7 @@ public class BinaryTree {
 
             current = current.left;
         }
+        
 
         if (successor != victimNode.right) {
             successorParent.left = successor.right;
