@@ -1,17 +1,19 @@
 package Final_BinaryTree;
 
+
 public class Main {
     public static int rand(){
         return (int)(Math.random() * 100);
     }
 
     public static void main(String[] args) {
-        BinaryTree<Integer> tree = new BinaryTree<>(0);
+        BinaryTree<Integer> s_tree = new BinaryTree<>();
 
-        for (int i = 0; i < 100; i++) {
-            tree.insert(rand());
+        for (int i = 0; i < 64; i++) {
+            s_tree.insert(rand());
         }
 
-        tree.display();
+        s_tree.display();
+
     }
 }

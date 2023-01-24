@@ -1,7 +1,7 @@
-package Final_BinaryTree;
+package DataStructures;
 
-public class BinaryTree<E> {
-    Node<E> root;
+public class BinaryTree<E>{
+    TreeNode<E> root;
     public BinaryTree(E root) {
         this.root = null;
     }
@@ -11,10 +11,10 @@ public class BinaryTree<E> {
         root = insertRec(root, data);
     }
 // hidden call
-    private Node<E> insertRec(Node<E> root, E data) {
+    private TreeNode<E> insertRec(TreeNode<E> root, E data) {
 //         assigns node to root if no root
         if (root == null) {
-            root = new Node<E>(data);
+            root = new TreeNode<E>(data);
             return root;
         }
 
@@ -33,7 +33,7 @@ public class BinaryTree<E> {
         inorderRec(root);
     }
 
-    private void inorderRec(Node<E> root) {
+    private void inorderRec(TreeNode<E> root) {
         if (root != null) {
             inorderRec(root.left);
             System.out.print(root.data + " ");
@@ -45,7 +45,7 @@ public class BinaryTree<E> {
         postorderPrintRec(root);
     }
 
-    private void postorderPrintRec(Node<E> node) {
+    private void postorderPrintRec(TreeNode<E> node) {
         if (node == null)
             return;
 
@@ -59,7 +59,7 @@ public class BinaryTree<E> {
         return searchRec(root, data);
     }
 
-    private boolean searchRec(Node<E> root, E data) {
+    private boolean searchRec(TreeNode<E> root, E data) {
         if (root == null) {
             return false;
         }
@@ -72,8 +72,8 @@ public class BinaryTree<E> {
         return searchRec(root.right, data);
     }
 
-    public boolean deleteNode(E key) {
-        Node<E> parent = root, current = root;
+    public boolean deleteTreeNode(E key) {
+        TreeNode<E> parent = root, current = root;
         boolean isLeftChild = true;
 
         while (current.data != key) {
@@ -119,7 +119,7 @@ public class BinaryTree<E> {
                 parent.right = current.right;
 
         } else { // if there are existing children
-            Node<E> successor = getSuccessor(current);
+            TreeNode<E> successor = getSuccessor(current);
 
             if (current == root)
                 root = successor;
@@ -135,10 +135,10 @@ public class BinaryTree<E> {
         return true;
     }
 
-    public Node<E> getSuccessor(Node<E> victimNode) {
-        Node<E> successor = null;
-        Node<E> successorParent = null;
-        Node<E> current = victimNode.right;
+    public TreeNode<E> getSuccessor(TreeNode<E> victimTreeNode) {
+        TreeNode<E> successor = null;
+        TreeNode<E> successorParent = null;
+        TreeNode<E> current = victimTreeNode.right;
 
         while (current != null) {
             successorParent = successor;
@@ -147,9 +147,9 @@ public class BinaryTree<E> {
             current = current.left;
         }
 
-        if (successor != victimNode.right) {
+        if (successor != victimTreeNode.right) {
             successorParent.left = successor.right;
-            successor.right = victimNode.right;
+            successor.right = victimTreeNode.right;
         }
 
         return successor;
@@ -159,7 +159,7 @@ public class BinaryTree<E> {
         return findMinRec(root);
     }
 
-    private E findMinRec(Node<E> root) {
+    private E findMinRec(TreeNode<E> root) {
         if (root.left == null) {
             return root.data;
         }
@@ -170,7 +170,7 @@ public class BinaryTree<E> {
         return findMaxRec(root);
     }
 
-    private E findMaxRec(Node<E> root) {
+    private E findMaxRec(TreeNode<E> root) {
         if (root.right == null) {
             return root.data;
         }
@@ -181,7 +181,7 @@ public class BinaryTree<E> {
         DFSRec(root);
     }
 
-    private void DFSRec(Node<E> root) {
+    private void DFSRec(TreeNode<E> root) {
         if (root != null) {
             System.out.print(root.data + " ");
             DFSRec(root.left);
@@ -193,7 +193,7 @@ public class BinaryTree<E> {
         return isBST(root, null, null);
     }
 
-    private boolean isBST(Node<E> node, E min, E max) {
+    private boolean isBST(TreeNode<E> node, E min, E max) {
         if (node == null) {
             return true;
         }
@@ -208,7 +208,7 @@ public class BinaryTree<E> {
         print(root);
     }
 
-    private void print(Node<E> node) {
+    private void print(TreeNode<E> node) {
         if (node == null) {
             return;
         }
@@ -236,7 +236,7 @@ public class BinaryTree<E> {
         displayRec(root, 0);
     }
 
-    private void displayRec(Node<E> root, int level) {
+    private void displayRec(TreeNode<E> root, int level) {
         if (root != null) {
             displayRec(root.right, level + 1);
 
